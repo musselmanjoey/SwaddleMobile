@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.swaddlemobile.app-mergeDebugResources-3:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\musse\\.gradle\\caches\\transforms-3\\d83edfa3c57e9bd8304eeaf7285bbae0\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.swaddlemobile"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <queries>
+13-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:24:5-32:15
+14        <intent>
+14-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:25:9-31:18
+15            <action android:name="android.intent.action.VIEW" />
+15-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:26:13-65
+15-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:26:21-62
+16
+17            <category android:name="android.intent.category.BROWSABLE" />
+17-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:28:13-74
+17-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:28:23-71
+18
+19            <data android:scheme="https" />
+19-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:30:13-44
+19-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:30:19-41
+20        </intent>
+21    </queries>
+22
+23    <permission
+23-->[androidx.core:core:1.10.1] C:\Users\musse\.gradle\caches\transforms-3\72ecb0b44e54f97c3e43b7352cc015e1\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+24        android:name="com.swaddlemobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.10.1] C:\Users\musse\.gradle\caches\transforms-3\72ecb0b44e54f97c3e43b7352cc015e1\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.10.1] C:\Users\musse\.gradle\caches\transforms-3\72ecb0b44e54f97c3e43b7352cc015e1\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.swaddlemobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.10.1] C:\Users\musse\.gradle\caches\transforms-3\72ecb0b44e54f97c3e43b7352cc015e1\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.10.1] C:\Users\musse\.gradle\caches\transforms-3\72ecb0b44e54f97c3e43b7352cc015e1\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:6:5-25:19
+30        android:name="com.swaddlemobile.MainApplication"
+30-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:7:7-38
+31        android:allowBackup="false"
+31-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:11:7-34
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.10.1] C:\Users\musse\.gradle\caches\transforms-3\72ecb0b44e54f97c3e43b7352cc015e1\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:9:7-41
+35        android:label="@string/app_name"
+35-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:8:7-39
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:10:7-52
+37        android:theme="@style/AppTheme" >
+37-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:12:7-38
+38        <activity
+38-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:13:7-24:18
+39            android:name="com.swaddlemobile.MainActivity"
+39-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:14:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+40-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:16:9-118
+41            android:exported="true"
+41-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:19:9-32
+42            android:label="@string/app_name"
+42-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:15:9-41
+43            android:launchMode="singleTask"
+43-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:17:9-40
+44            android:windowSoftInputMode="adjustResize" >
+44-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:18:9-51
+45            <intent-filter>
+45-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:20:9-23:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:21:13-65
+46-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:21:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:22:13-73
+48-->C:\EOYSoftwareSolutions\Development\projects\SwaddleMobile\android\app\src\main\AndroidManifest.xml:22:23-70
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:35:9-40:77
+52            android:name="net.openid.appauth.AuthorizationManagementActivity"
+52-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:36:13-78
+53            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboard|keyboardHidden"
+53-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:37:13-115
+54            android:exported="false"
+54-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:38:13-37
+55            android:launchMode="singleTask"
+55-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:39:13-44
+56            android:theme="@style/Theme.AppCompat.Translucent.NoTitleBar" />
+56-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:40:13-74
+57        <activity
+57-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:41:9-52:20
+58            android:name="net.openid.appauth.RedirectUriReceiverActivity"
+58-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:42:13-74
+59            android:exported="true" >
+59-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:43:13-36
+60            <intent-filter>
+60-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:44:13-51:29
+61                <action android:name="android.intent.action.VIEW" />
+61-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:26:13-65
+61-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:26:21-62
+62
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:47:17-76
+63-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:47:27-73
+64                <category android:name="android.intent.category.BROWSABLE" />
+64-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:28:13-74
+64-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:28:23-71
+65
+66                <data android:scheme="com.swaddlemobile" />
+66-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:30:13-44
+66-->[net.openid:appauth:0.11.1] C:\Users\musse\.gradle\caches\transforms-3\baae4cd999891d2197aa36ba0b2959f3\transformed\jetified-appauth-0.11.1\AndroidManifest.xml:30:19-41
+67            </intent-filter>
+68        </activity>
+69
+70        <provider
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\musse\.gradle\caches\transforms-3\e7edd35f471992883cab5d5b73947363\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+71            android:name="androidx.startup.InitializationProvider"
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\musse\.gradle\caches\transforms-3\e7edd35f471992883cab5d5b73947363\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+72            android:authorities="com.swaddlemobile.androidx-startup"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\musse\.gradle\caches\transforms-3\e7edd35f471992883cab5d5b73947363\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+73            android:exported="false" >
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\musse\.gradle\caches\transforms-3\e7edd35f471992883cab5d5b73947363\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\musse\.gradle\caches\transforms-3\e7edd35f471992883cab5d5b73947363\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\musse\.gradle\caches\transforms-3\e7edd35f471992883cab5d5b73947363\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\musse\.gradle\caches\transforms-3\e7edd35f471992883cab5d5b73947363\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\musse\.gradle\caches\transforms-3\e7d5fb8df8b9932ef1a100441927fc6d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\musse\.gradle\caches\transforms-3\e7d5fb8df8b9932ef1a100441927fc6d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+79                android:value="androidx.startup" />
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\musse\.gradle\caches\transforms-3\e7d5fb8df8b9932ef1a100441927fc6d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+80        </provider>
+81
+82        <meta-data
+82-->[com.facebook.soloader:soloader:0.10.5] C:\Users\musse\.gradle\caches\transforms-3\88a9f758a12a5aae69b947be95689ce9\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+83            android:name="com.facebook.soloader.enabled"
+83-->[com.facebook.soloader:soloader:0.10.5] C:\Users\musse\.gradle\caches\transforms-3\88a9f758a12a5aae69b947be95689ce9\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+84            android:value="false" />
+84-->[com.facebook.soloader:soloader:0.10.5] C:\Users\musse\.gradle\caches\transforms-3\88a9f758a12a5aae69b947be95689ce9\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+85    </application>
+86
+87</manifest>

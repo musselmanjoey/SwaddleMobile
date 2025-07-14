@@ -268,3 +268,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 **Built with ❤️ by EOY Software Solutions**  
 *Bringing Spotify playlist creation to mobile devices*
+=======
+# SwaddleMobile
+React Native mobile application - Spotify playlist creator migrated from Swaddle desktop app
